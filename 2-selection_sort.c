@@ -7,7 +7,7 @@
  * @min: value to swap with start point.
  * Return: nothing.
  */
-void swap(int *array, size_t start, size_t min)
+void swap2(int *array, size_t start, size_t min)
 {
 	int a, b;
 
@@ -43,7 +43,7 @@ void selection_sort(int *array, size_t size)
 		}
 		if (min != start)
 		{
-			swap(array, start, min);
+			swap2(array, start, min);
 			print_array(array, size);
 		}
 		start++;
