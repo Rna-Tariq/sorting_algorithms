@@ -29,9 +29,9 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t i, j;
 
-	if (!list || !(*list) || !(list->next))
+	if (!list || !(*list) || !((*list)->next))
 		return;
-	i = (list)->next;
+	i = (*list)->next;
 
 	while (i)
 	{
