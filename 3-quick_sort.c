@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swap - Swap values of start and next index.
+ * swap3 - Swap values of start and next index.
  * @array: the array to work in.
  * @size: size of array.
  * @low: left most value
