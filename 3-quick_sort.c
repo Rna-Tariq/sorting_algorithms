@@ -8,7 +8,7 @@
  * @high: right most value
  * Return: nothing.
  */
-void swap(int *array, size_t size, int low, int high)
+void swap3(int *array, size_t size, int low, int high)
 {
 	int temp;
 
@@ -39,11 +39,11 @@ int partition(int *array, size_t size, int low, int high)
 		if (array[j] < pivot_value)
 		{
 			i++;
-			swap(array, size, i, j);
+			swap3(array, size, i, j);
 
 		}
 	}
-	swap(array, size, i + 1, high);
+	swap3(array, size, i + 1, high);
 
 	return (i + 1);
 }
