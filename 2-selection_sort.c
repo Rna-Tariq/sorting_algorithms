@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swap - Swap values of start and next index.
+ * swap2 - Swap values of start and next index.
  * @array: the array to work in.
  * @start: start point of the array.
  * @min: value to swap with start point.
